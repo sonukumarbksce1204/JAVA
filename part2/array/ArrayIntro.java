@@ -1,5 +1,4 @@
 package part2.array;
-import java.util.Scanner;
 public class ArrayIntro{
     public static void main(String[] args){
         /*
@@ -11,6 +10,9 @@ public class ArrayIntro{
         //alter
         int[] ro;
         ro=new int[5];
+        roll[0]=1;
+        ro[1]=5;
+        System.out.println(rno[3]);
         
     }
 

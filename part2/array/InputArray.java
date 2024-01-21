@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class InputArray{
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
-        int[] arr=new int[5];
+        int[] arr=new int[5];  //array of prematives
         for(int i=0;i<arr.length;i++){
             arr[i]=input.nextInt();
         }
@@ -13,6 +13,16 @@ public class InputArray{
         }
         //to print whole array at one time
         System.out.println(Arrays.toString(arr));
+
+        //array of objects
+        String[] str=new String[5];
+        for(int i=0;i<str.length;i++){
+            str[i]=input.next();
+        }
+        for(String s:str){
+            System.out.print(s +" ");
+        }
+
         input.close();
     }
 }
