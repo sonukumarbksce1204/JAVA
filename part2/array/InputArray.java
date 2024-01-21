@@ -1,5 +1,6 @@
 package part2.array;
 import java.util.Scanner;
+import java.util.Arrays;
 public class InputArray{
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
@@ -10,6 +11,8 @@ public class InputArray{
         for(int num:arr){
             System.out.print(num+ " ");
         }
+        //to print whole array at one time
+        System.out.println(Arrays.toString(arr));
         input.close();
     }
 }
