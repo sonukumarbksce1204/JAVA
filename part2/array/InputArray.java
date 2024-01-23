@@ -1,6 +1,8 @@
 package part2.array;
+
 import java.util.Scanner;
 import java.util.Arrays;
+
 public class InputArray{
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
@@ -22,7 +24,11 @@ public class InputArray{
         for(String s:str){
             System.out.print(s +" ");
         }
-
+        System.out.println(Arrays.toString(str));
+        
+        //modify
+        str[1]="SONU";
+        System.out.println(Arrays.toString(str));
         input.close();
     }
 }
