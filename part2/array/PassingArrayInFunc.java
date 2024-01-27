@@ -1,6 +1,6 @@
 package part2.array;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.util.Arrays;
 
 public class PassingArrayInFunc {
