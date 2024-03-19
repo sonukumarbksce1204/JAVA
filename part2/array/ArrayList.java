@@ -24,7 +24,7 @@ public class ArrayList {
         list.set(0,101);                    //list.set(index,updating_val); it is used to update the vlaue of list
         list.remove(2);          //list.remove(index); it is used to remove the element at that perticular index
 
-        ArrayList<Integer> list2=new Arrays<Integer>(5);
+        ArrayList<Integer> list2=new ArrayList<Integer>(5);
         //input
         for(int i=0;i<5;i++){
             list.add(input.nextInt());

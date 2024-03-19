@@ -13,12 +13,12 @@ public class MultiDimentionalArray{
         //int[][] arr=new int[3][2]; //here [row][colums] and entry in row in compulsery not columns
 
         Scanner input=new Scanner(System.in);
-
+/* 
         int[][] arr1= {
                     {1,2,3},
                     {4,5,6},
                     {7,8,9}
-        };
+        };*/
         int[][] arr=new int[3][3];
         System.out.println(arr.length);  //no of rows
         //input
