@@ -5,7 +5,7 @@ public class LL {
     private Node tail;
 
     private int size;
-    public LL(){
+    public SinglyLL(){
         this.size=0;
     }
     private class Node{
@@ -18,7 +18,5 @@ public class LL {
             this.value=value;
             this.next=next;
         }
-    }
-
-    
+    } 
 }
